@@ -3,6 +3,17 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Bienvenido a la web de peliculas</h1>
+    <ul style=" list-style: none">
+        <li>Guarda tus peliculas favoritas</li>
+        <li>Mira las reseñas de las peliculas que quieres ver</li>
+        <li>Califica las peliculas que viste</li>
+    </ul>
+    <form method="get">
+        <button class="btn-primary" asp-controller="Login" asp-action="Index">
+            Iniciar Sesion
+
+        </button>
+        </form>
+
 </div>
